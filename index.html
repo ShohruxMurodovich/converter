@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Online converter</title>
+</head>
+<body>
+
+  <div class="case">
+
+    <h1 class="title">Convert Your Currency </h1>
+
+
+    <form class="form" action="#" method="POST" autocomplete="off">
+
+      <input type="number" class="form__input" min="0" aria-label="Enter your value" placeholder="Enter value">
+
+
+      <select class="form__select" name="convert-to">
+        <option value="10839">UZS</option>
+        <option value="79">RUBL</option>
+        <option value="0.88">EURO</option>
+      </select>
+
+      <button class="form__btn" type="submit">Convert</button>
+
+      <span class="form__result"></span>
+
+    </form>
+
+  </div>
+
+
+
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
